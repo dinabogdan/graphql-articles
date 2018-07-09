@@ -7,8 +7,6 @@ import com.freesoft.graphqlarticlesdemo.repository.ProfileRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Component;
 
-import java.util.Optional;
-
 @Component
 @AllArgsConstructor
 public class CommentResolver implements GraphQLResolver<Comment> {

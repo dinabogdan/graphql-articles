@@ -3,7 +3,7 @@ type Query {
     profiles: [Profile]
     comments: [Comment]
     article(id: Int!): Article
-}
+ }
 
 type Article {
     id: Int!
